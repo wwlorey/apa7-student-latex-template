@@ -19,8 +19,8 @@
 
 \newcommand{\papertitle}{<++>}
 \author{<++>}
-\newcommand{\coursenumber}{<++>}
-\newcommand{\coursetitle}{<++>}
+\newcommand{\institution}{<++>}
+\newcommand{\course}{<++>}
 \newcommand{\instructor}{<++>}
 \newcommand{\duedate}{<++>}
 
@@ -59,26 +59,21 @@
 
 \renewcommand{\maketitle}{
   \begin{center}
-    \vspace*{150pt}
+    \vspace*{70pt}
 
-    \begin{singlespace}
-      \papertitle
+    \textbf{\papertitle}
 
-      \theauthor
-    \end{singlespace}
+    \vspace{25pt}
 
-    \vspace{50pt}
+    \theauthor
 
-    \textit{A paper submitted in partial}
+    \institution
 
-    \textit{fulfillment of the requirements of COUN}
-    \textit{\coursenumber}
+    \course
 
-    \textit{\coursetitle}
+    \instructor
 
-    \textit{\instructor}
-
-    \textit{\duedate}
+    \duedate
   \end{center}
 }
 
