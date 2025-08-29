@@ -1,6 +1,6 @@
-# truman-apa7-latex-template
+# apa7-student-latex-template
 
-A simple APA7 LaTeX template in a flavor defined by the Truman State University Counseling Program.
+A simple LaTeX template for writing student papers in APA 7 format.
 
 This is built without the use of the `apa7` LaTeX package and can be easily modified for your own purposes.
 
